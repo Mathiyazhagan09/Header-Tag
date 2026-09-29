@@ -244,7 +244,7 @@ body {
 
 
 .book-now:hover {
-    transform: translateY(-3px);
+    transform: translateY(10px);
 
     box-shadow:
         0 8px 25px rgba(0, 140, 255, 0.4);
@@ -294,7 +294,7 @@ body {
 }
 
 
-/* ================= HERO CONTENT ================= */
+
 
 .hero-content {
     width: 50%;
@@ -465,11 +465,7 @@ body {
 
 
 .hero-image img {
-    width: 100%;
-
-    height: 470px;
-
-    object-fit: cover;
+     object-fit: cover;
 
     border-radius: 25px;
 
