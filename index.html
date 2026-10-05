@@ -17,7 +17,6 @@
 
 </head>
 
-
 <body>
 
     <header class="header">
@@ -50,9 +49,9 @@
                     Home
                 </a>
 
-                <!--<a href="#services" class="nav-link">
+                <a href="#services" class="nav-link">
                     Services
-                </a>-->
+                </a>
 
                 <a href="#about" class="nav-link">
                     About
@@ -77,7 +76,7 @@
 
     <div class="hero-container">
 
-        <!-- LEFT CONTENT -->
+        
         <div class="hero-content">
 
             <p class="welcome">
@@ -130,7 +129,7 @@
         </div>
 
 
-        <!-- RIGHT IMAGE -->
+        
         <div class="hero-image">
 
             <input type="radio" name="hero-slide" id="slide1" checked>
@@ -168,10 +167,9 @@
 </section>
 
 
-<!-- ⭐ HERO FULLY CLOSED HERE ⭐ -->
 
 
-<!-- ================= SERVICES ================= -->
+
 
 <section class="services" id="services">
 
@@ -285,7 +283,7 @@
         <div class="testimonial-cards">
 
 
-            <!-- FEEDBACK 1 -->
+          
 
             <div class="testimonial-card">
 
@@ -316,7 +314,7 @@
             </div>
 
 
-            <!-- FEEDBACK 2 -->
+         
 
             <div class="testimonial-card">
 
@@ -346,7 +344,7 @@
             </div>
 
 
-            <!-- FEEDBACK 3 -->
+            
 
             <div class="testimonial-card">
 
@@ -380,7 +378,258 @@
 
     </div>
 
+</section> 
+
+<section class="contact" id="contact">
+
+    <div class="contact-container">
+
+        <div class="contact-heading">
+
+            <p>GET IN TOUCH</p>
+
+            <h2>
+                Let's Plan Your <span>Event</span>
+            </h2>
+
+            <p class="contact-description">
+                Tell us about your event and our team will
+                get back to you shortly.
+            </p>
+
+        </div>
+
+
+        <div class="contact-content">
+
+            <!-- Contact Information -->
+
+            <div class="contact-info">
+
+                <h3>Make Your Event Special</h3>
+
+                <p>
+                    Whether it's a wedding, birthday, college event
+                    or any special celebration, Grand Vista Events
+                    is here to make your event memorable.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        ✉
+                    </div>
+
+                    <div>
+                        <h4>Email</h4>
+                        <p>grandvistaevents@gmail.com</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        ☎
+                    </div>
+
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <h4>Location</h4>
+                        <p>Tamil Nadu, India</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+
+            <div class="contact-form">
+
+                <form>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="event">
+                            Event Type
+                        </label>
+
+                        <select id="event" name="event">
+
+                            <option value="">
+                                Select your event
+                            </option>
+
+                            <option value="wedding">
+                                Wedding Event
+                            </option>
+
+                            <option value="birthday">
+                                Birthday Event
+                            </option>
+
+                            <option value="college">
+                                College Event
+                            </option>
+
+                            <option value="reception">
+                                Reception Event
+                            </option>
+
+                            <option value="corporate">
+                                Corporate Event
+                            </option>
+
+                            <option value="other">
+                                Other Event
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="date">
+                                Event Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="guests">
+                                Number of Guests
+                            </label>
+
+                            <input
+                                type="number"
+                                id="guests"
+                                name="guests"
+                                placeholder="e.g. 100"
+                                min="1"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Tell Us About Your Event
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell us about your event requirements..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="contact-button">
+
+                        Send Enquiry
+
+                        <span>→</span>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-</body>
+</body>   
 </html>

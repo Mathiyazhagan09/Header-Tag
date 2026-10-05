@@ -300,7 +300,6 @@ body {
 }
 
 
-/* ================= HERO CONTENT ================= */
 
 .hero-content {
     width: 50%;
@@ -346,19 +345,6 @@ body {
     animation: eventText 3s ease-out 0.4s both;
 }
 
-/*@keyframes heroText {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-        filter: blur(8px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-    }
-}*/
 
 @keyframes heroText {
     0% {
@@ -515,7 +501,7 @@ body {
     margin-bottom: 4px;
 }
 
-/* Hover / touch */
+
 .detail:hover h3 {
     animation: numberAnimation 0.8s ease-out;
 }
@@ -592,21 +578,21 @@ body {
 }
 
 
-/* IMAGE 1 */
+
 
 #slide1:checked ~ .slide1 {
     display: block;
 }
 
 
-/* IMAGE 2 */
+
 
 #slide2:checked ~ .slide2 {
     display: block;
 }
 
 
-/* IMAGE 3 */
+
 
 #slide3:checked ~ .slide3 {
     display: block;
@@ -621,7 +607,7 @@ body {
 }
 
 
-/* HOVER ZOOM */
+
 
 .slide:hover img {
     transform: scale(1.03);
@@ -758,7 +744,7 @@ body {
 
 
 
-/* ================= SMALL MOBILE ================= */
+
 
 @media (max-width: 500px) {
 
@@ -805,7 +791,6 @@ body {
 
 } 
 
-/* ================= SERVICES SECTION ================= */
 
 html {
     scroll-behavior: smooth;
@@ -829,7 +814,7 @@ html {
 }
 
 
-/* SECTION TITLE */
+
 
 .section-title {
     color: #38bdf8;
@@ -840,7 +825,7 @@ html {
 }
 
 
-/* MAIN HEADING */
+
 
 .services h2 {
     color: white;
@@ -856,7 +841,7 @@ html {
 }
 
 
-/* DESCRIPTION */
+
 
 .section-description {
     max-width: 600px;
@@ -869,7 +854,7 @@ html {
 }
 
 
-/* ================= SERVICE GRID ================= */
+
 
 .services-grid {
     display: grid;
@@ -882,7 +867,6 @@ html {
 }
 
 
-/* ================= SERVICE CARD ================= */
 
 .service-card {
     display: flex;
@@ -901,7 +885,7 @@ html {
 }
 
 
-/* ================= SERVICE IMAGE ================= */
+
 
 .service-card > img {
     width: 45%;
@@ -916,7 +900,7 @@ html {
 }
 
 
-/* ================= SERVICE CONTENT ================= */
+
 
 .service-content {
     width: 55%;
@@ -951,7 +935,7 @@ html {
 }
 
 
-/* ================= HOVER EFFECT ================= */
+
 
 .service-card:hover {
     transform: translateY(-8px);
@@ -968,7 +952,7 @@ html {
 }
 
 
-/* ================= TABLET ================= */
+
 
 @media (max-width: 800px) {
 
@@ -991,7 +975,7 @@ html {
 }
 
 
-/* ================= MOBILE ================= */
+
 
 @media (max-width: 500px) {
 
@@ -1059,7 +1043,6 @@ html {
 }
 
 
-/* TESTIMONIAL HEADING */
 
 .testimonial-heading {
     text-align: center;
@@ -1098,7 +1081,7 @@ html {
 }
 
 
-/* TESTIMONIAL CARDS */
+
 
 .testimonial-cards {
     display: grid;
@@ -1121,7 +1104,7 @@ html {
 }
 
 
-/* TESTIMONIAL HOVER */
+
 
 .testimonial-card:hover {
     transform: translateY(-8px);
@@ -1133,7 +1116,7 @@ html {
 }
 
 
-/* STARS */
+
 
 .stars {
     color: #38bdf8;
@@ -1146,7 +1129,7 @@ html {
 }
 
 
-/* REVIEW TEXT */
+
 
 .testimonial-card > p {
     color: #b8c2cf;
@@ -1159,7 +1142,7 @@ html {
 }
 
 
-/* CLIENT */
+
 
 .client {
     display: flex;
@@ -1213,7 +1196,7 @@ html {
 }
 
 
-/* ================= RESPONSIVE ================= */
+
 
 @media (max-width: 800px) {
 
@@ -1283,6 +1266,513 @@ html {
 
     .testimonial-card {
         padding: 25px;
+    }
+
+}
+/* ================================
+   CONTACT SECTION
+================================ */
+
+.contact {
+
+    width: 100%;
+
+    padding: 100px 0;
+
+    background: #07101c;
+
+    border-top: 1px solid #17283c;
+
+}
+
+
+.contact-container {
+
+    width: min(1200px, 92%);
+
+    margin: auto;
+
+}
+
+
+/* Contact Heading */
+
+.contact-heading {
+
+    text-align: center;
+
+    margin-bottom: 55px;
+
+}
+
+
+.contact-heading > p:first-child {
+
+    color: #38bdf8;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.contact-heading h2 {
+
+    color: white;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 42px;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+
+}
+
+
+.contact-heading h2 span {
+
+    color: #38bdf8;
+
+    font-style: italic;
+
+}
+
+
+.contact-description {
+
+    color: #718096;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+}
+
+
+/* Contact Main Content */
+
+.contact-content {
+
+    display: grid;
+
+    grid-template-columns: 0.8fr 1.2fr;
+
+    gap: 30px;
+
+    align-items: stretch;
+
+}
+
+
+/* Contact Information */
+
+.contact-info {
+
+    padding: 40px;
+
+    background: #05070b;
+
+    border: 1px solid #1b3046;
+
+    border-radius: 20px;
+
+}
+
+
+.contact-info h3 {
+
+    color: white;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.contact-info > p {
+
+    color: #9ba8b7;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+
+}
+
+
+/* Contact Items */
+
+.contact-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.contact-icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #1264ed,
+        #18b8f5
+    );
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+
+.contact-item h4 {
+
+    color: white;
+
+    font-size: 14px;
+
+    margin-bottom: 4px;
+
+}
+
+
+.contact-item p {
+
+    color: #718096;
+
+    font-size: 12px;
+
+}
+
+
+/* Contact Form */
+
+.contact-form {
+
+    padding: 40px;
+
+    background: #05070b;
+
+    border: 1px solid #1b3046;
+
+    border-radius: 20px;
+
+}
+
+
+.form-row {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+
+}
+
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+.form-group label {
+
+    display: block;
+
+    color: #d7e0eb;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+
+    width: 100%;
+
+    padding: 13px 15px;
+
+    background: #07101c;
+
+    border: 1px solid #26384c;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 13px;
+
+    transition: 0.3s ease;
+
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+
+    color: #596879;
+
+}
+
+
+/* Input Focus */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+
+    border-color: #38bdf8;
+
+    box-shadow:
+        0 0 0 3px rgba(56, 189, 248, 0.08);
+
+}
+
+
+/* Select */
+
+.form-group select {
+
+    cursor: pointer;
+
+}
+
+
+.form-group select option {
+
+    background: #07101c;
+
+    color: white;
+
+}
+
+
+/* Textarea */
+
+.form-group textarea {
+
+    resize: vertical;
+
+    min-height: 120px;
+
+}
+
+
+/* Submit Button */
+
+.contact-button {
+
+    width: 100%;
+
+    padding: 14px 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    background: linear-gradient(
+        90deg,
+        #1264ed,
+        #18b8f5
+    );
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+}
+
+
+.contact-button span {
+
+    font-size: 17px;
+
+    transition: 0.3s ease;
+
+}
+
+
+.contact-button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 140, 255, 0.35);
+
+}
+
+
+.contact-button:hover span {
+
+    transform: translateX(5px);
+
+}
+
+
+
+
+@media (max-width: 800px) {
+
+    .contact {
+
+        padding: 70px 0;
+
+    }
+
+
+    .contact-heading h2 {
+
+        font-size: 36px;
+
+    }
+
+
+    .contact-content {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .contact-info,
+    .contact-form {
+
+        padding: 30px;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .contact {
+
+        padding: 55px 0;
+
+    }
+
+
+    .contact-container {
+
+        width: 92%;
+
+    }
+
+
+    .contact-heading h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .contact-description {
+
+        font-size: 13px;
+
+    }
+
+
+    .contact-content {
+
+        gap: 20px;
+
+    }
+
+
+    .contact-info,
+    .contact-form {
+
+        padding: 22px;
+
+        border-radius: 16px;
+
+    }
+
+
+    .contact-info h3 {
+
+        font-size: 23px;
+
+    }
+
+
+    .form-row {
+
+        grid-template-columns: 1fr;
+
+        gap: 0;
+
+    }
+
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+
+        padding: 12px;
+
     }
 
 }
