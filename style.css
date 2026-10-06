@@ -4,16 +4,12 @@
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: "DM Sans", Arial, sans-serif;
-
+    font-family: "DM Sans",Arial, sans-serif;
     background: #05070b;
-
     color: white;
+
 }
-
-
 
 .header {
     height: 72px;
